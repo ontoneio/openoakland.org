@@ -2,17 +2,15 @@
   path: /
 - title: About Us
   path: about-us.md
-- title: How We Work
-  path: how-we-work.md
 - title: Calendar
-  path: calendar.md
-- title: Donate
-  path: donate.md
+  path: /calendar/
+- title: Contact
+  path: contact.md
 - title: Press
   path: press.md
 - title: Projects
   path: projects.md
 - title: Resources
   path: resources.md
-- title: Steering Committee
-  path: steering-committee.md
+- title: Updates
+  path: updates.md

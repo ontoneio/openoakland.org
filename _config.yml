@@ -28,15 +28,16 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-redirect-from
+  - jekyll-get-json
 
 source: src
 header_pages:
   - about-us.md
-  - how-we-work.md
+  - calendar/calendar.md
   - projects.md
-  - calendar.md
   - resources.md
-  - donate.md
+  - updates.md
+  - contact.md
 
 google_analytics: UA-35908939-6
 
@@ -52,6 +53,9 @@ permalink: pretty
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
-jekyll_get:
+jekyll_get_json:
   - data: events
-    json: https://api.meetup.com/OpenOakland/events?&page=2
+    json: 'https://api.meetup.com/OpenOakland/events?&page=2'
+
+exclude:
+  - .jekyll-cache

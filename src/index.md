@@ -1,6 +1,7 @@
 ---
 layout: home
 title: We are OpenOakland
+author: OpenOakland
 ---
 
 <section class="row page-section">
@@ -18,7 +19,6 @@ title: We are OpenOakland
   </div>
 </section>
 
-{% include announcement-home.html %}
 
 <section class="page-section">
   {% include next-meeting.html %}
@@ -28,7 +28,7 @@ title: We are OpenOakland
   </p>
 
   <p>
-  We hope you'll join us! If you can't make this event, <a href="https://www.meetup.com/OpenOakland" target="_blank">check our Meetup group for our future events</a>. You'll find us every Tuesday night on Zoom at <a href="http://oakca.us/hack-night" target="_blank">http://oakca.us/hack-night</a>.
+  We hope you'll join us! If you can't make this event, <a href="https://www.meetup.com/OpenOakland" target="_blank">check our Meetup group for our future events</a>.
   </p>
 
 </section>
@@ -43,8 +43,8 @@ title: We are OpenOakland
   </div>
 
   <div class="col-12">
-    <p>OpenOakland members primarily use Slack for connecting and communicating. By joining our Slack space, you agree to our <a href="/code-of-conduct">Code of Conduct</a> (upshot: be cool to each other; don't spam).</p>
-    <p><a href="https://join.slack.com/t/openoakland/shared_invite/zt-n4d7tx2t-UVIN7a769e4oc9j7PgM3HA">Join us in Slack</a>.</p>
+    <p>OpenOakland members primarily use Slack for connecting and communicating. By joining our Slack space, you agree to our <a href="/code-of-conduct">Code of Conduct</a> (upshot: be cool to each other and don't spam).</p>
+    <p><strong><a class="btn btn-primary" href="https://join.slack.com/t/openoakland/shared_invite/zt-n4d7tx2t-UVIN7a769e4oc9j7PgM3HA">Join us in Slack</a></strong> <a class="btn btn-link brand-link" href="https://docs.google.com/document/d/1VWZQ_3ehP5j0IOTY0nJClvQPll3ivSkuAdh5YsOhO_U/edit?usp=sharing">OpenOakland Slack Guide</a></p>
   </div>
 
 </section>
